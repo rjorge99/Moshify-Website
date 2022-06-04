@@ -25,7 +25,9 @@
     <body>
         <header>
             <nav class="nav collapsible">
-                <a href="/" class="nav__brand"><img src="images/logo.svg" alt="" /></a>
+                <a aria-label="Moshify" href="/" class="nav__brand"
+                    ><img src="images/logo.svg" alt=""
+                /></a>
                 <svg class="icon icon--white nav__toggler">
                     <use xlink:href="images/sprite.svg#menu"></use>
                 </svg>
@@ -64,7 +66,12 @@
             </header>
 
             <div class="input-group">
-                <input type="text" class="input" placeholder="Enter domain name here..." />
+                <input
+                    aria-label="Domain"
+                    type="text"
+                    class="input"
+                    placeholder="Enter domain name here..."
+                />
                 <button class="btn btn--accent">
                     <svg class="icon icon--white">
                         <use xlink:href="images/sprite.svg#search"></use>
