@@ -674,6 +674,7 @@ a {
 
 .block__header {
     text-align: center;
+    margin-bottom: 4rem;
 }
 
 .block__heading {
@@ -696,7 +697,6 @@ a {
 }
 
 .block--skewed-right {
-<<<<<<< HEAD
     padding-bottom: calc(var(--padding-vertical) + 4rem);
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 90%);
 }
@@ -704,15 +704,6 @@ a {
 .block--skewed-left {
     padding-bottom: calc(var(--padding-vertical) + 4rem);
     clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
-=======
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 80%);
-    padding-bottom: calc(var(--padding-vertical) + 4rem);
-}
-
-.block--skewed-left {
-    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
-    padding-bottom: calc(var(--padding-vertical) + 4rem);
->>>>>>> refs/remotes/origin/main
 }
 
 .container {
@@ -721,13 +712,6 @@ a {
 }
 
 /* Hero */
-<<<<<<< HEAD
-=======
-.hero {
-    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
-}
-
->>>>>>> refs/remotes/origin/main
 .hero__tagline {
     color: #b9c3cf;
     font-size: 2rem;
